@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Search App Using JavaScript | upCoding</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <form class="form" action="#">
+        <div class="input-box">
+          <input
+            id="search-input"
+            type="text"
+            placeholder="Search images..."
+            autocomplete="off"
+          />
+          <i class="bx bx-search"></i>
+        </div>
+
+        <button id="search-btn">
+          <i class="bx bx-search"></i>
+
+          Search
+        </button>
+      </form>
+      <ul class="image-container"></ul>
+      <button class="show-more">Load More...</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
